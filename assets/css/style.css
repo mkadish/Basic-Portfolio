@@ -20,7 +20,7 @@ header {
 h1 {
     width: 350px;
     position: fixed;
-    left: 135px;
+    left: 10%;
     background-color: #4aaaa5;   
     color: #ffffff;
     padding-top: 26px;
@@ -34,7 +34,7 @@ h1 {
     text-align: right;
     padding-top: 30px;
     position: fixed;
-    right: 255px;
+    right: 20%;
     top: 2px;
     font-size: 18px;
     background-color: #ffffff;   
@@ -103,6 +103,10 @@ h2 {
     line-height: 1.5; 
     line-break: loose;
     display: block;
+}
+
+#bio p {
+    margin: 10px;
 }
 
 footer {
